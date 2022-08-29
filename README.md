@@ -6,6 +6,7 @@
       VibInfo.cs 振動情報
 
 各スクリプトの解説
+
       Vibration.cs のInspector上のパラメータ
         VibInfo 振動情報を持つVibInfo.csを入れる
 
