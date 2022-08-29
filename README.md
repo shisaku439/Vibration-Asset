@@ -1,4 +1,4 @@
-# Vibration-Asset
+# Vibration-Asset for Unity
 オブジェクト（3D,2D）を振動させるUnity用アセット
 
 ファイル内容
