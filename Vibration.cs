@@ -14,18 +14,28 @@ public class Vibration : MonoBehaviour
 
     private void Start()
     {
+        //オフセットをランダムに設定
         randomOffset = new Vector2(Random.Range(0.0f, 100.0f), Random.Range(0.0f, 100.0f));
     }
 
+    //振動アニメーション再生
     public void StartVibration()
     {
         //すでにアニメーションが再生されていた場合停止させる
+        StopVibration();
+
+        //再生
+        coroutine=StartCoroutine(VibAnimation());
+    }
+
+    //振動アニメーション停止
+    public void StopVibration()
+    {
         if (coroutine != null)
         {
             StopCoroutine(coroutine);
             this.transform.localPosition = initPos;
         }
-        coroutine=StartCoroutine(VibAnimation());
     }
 
 
