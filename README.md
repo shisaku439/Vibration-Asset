@@ -3,8 +3,8 @@
 
 ファイル内容
 
-      Vibration.cs 振動スクリプト
-      VibInfo.cs 振動情報スクリプト
+      Vibration.cs 振動させるスクリプト
+      VibInfo.cs 振動情報を持つスクリプト
 
 各スクリプトの解説
 
