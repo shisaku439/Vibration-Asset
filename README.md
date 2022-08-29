@@ -2,8 +2,9 @@
 オブジェクト（3D,2D）を振動させるUnity用アセット
 
 ファイル内容
+
       Vibration.cs 振動スクリプト
-      VibInfo.cs 振動情報
+      VibInfo.cs 振動情報スクリプト
 
 各スクリプトの解説
 
