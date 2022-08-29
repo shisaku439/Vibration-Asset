@@ -2,17 +2,17 @@
 オブジェクト（3D,2D）を振動させるUnity用アセット
 
 ファイル内容
-  Vibration.cs 振動スクリプト
-  VibInfo.cs 振動情報
+      Vibration.cs 振動スクリプト
+      VibInfo.cs 振動情報
 
 解説
-　Vibration.cs のInspector上のパラメーター
-    VibInfo　振動情報を持つVibInfo.csを入れる。
-    
- VibInfo.cs のInspector上のパラメーター
-    ※このスクリプトはScritableObjectを継承しているため
-    　Assets上で右クリックしCreate＞CreateVibInfoでPrefabを生成し
-    　パラメーターを設定する。
+      Vibration.cs のInspector上のパラメーター
+        VibInfo　振動情報を持つVibInfo.csを入れる。
+
+      VibInfo.cs のInspector上のパラメーター
+        ※このスクリプトはScritableObjectを継承しているため
+         Assets上で右クリックしCreate＞CreateVibInfoでPrefabを生成し
+         パラメーターを設定する。
      
      Time 振動し続ける時間
      Duration アニメーションの間隔　（例 1を入れると1秒間隔に振動する）
@@ -26,8 +26,8 @@
 
 使用の流れ
 
-1：振動させたいオブジェクトにVibration.cs をaddcomponentする
-2：Asset内で右クリックしCreate＞CreateVibInfoでPrefabを生成する
-3：Asset内でPrefabのInspectorから振動の情報を設定する
-4：設定したPrefabをVibrationのVibInfoに入れる
-5：他のスクリプトからVibration.cs内の StartVibration() メソッドを実行させる
+    1：振動させたいオブジェクトにVibration.cs をaddcomponentする
+    2：Asset内で右クリックしCreate＞CreateVibInfoでPrefabを生成する
+    3：Asset内でPrefabのInspectorから振動の情報を設定する
+    4：設定したPrefabをVibrationのVibInfoに入れる
+    5：他のスクリプトからVibration.cs内の StartVibration() メソッドを実行させる
