@@ -17,7 +17,7 @@
                   StopVibration() アニメーション停止
 
       VibInfo.cs 
-        ※このスクリプトはScritableObjectを継承しているため、Assets上で右クリック Create＞CreateVibInfo でPrefabを生成し、パラメーターを設定する。
+        ※このスクリプトはScritableObjectを継承しているため、Assets上で右クリック Create＞CreateVibInfo でPrefabを生成して、パラメーターを設定してください。
      
             Inspector上のパラメーター
                  Time 振動し続ける時間
